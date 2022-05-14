@@ -1,0 +1,51 @@
+/* Configurações de reset */
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: 0;
+}
+
+/* Header*/
+#header-principal{}
+.navbar{}
+.logo{}
+.links{}
+.a-link{}
+.cont-header-principal{}
+.box-conteudo-header{}
+.h2-title{}
+.p-cont-title{}
+
+/* About us */
+#about-us{}
+.img-about-us{}
+.img{}
+.box-conteudo-about{}
+.h1-about-us{}
+.p-about-us{}
+.box-bnt-about-us{}
+.bnt-about-us{}
+.other-languages{}
+.box-other-laguage{}
+.title-h2{}
+.p-cont-h2{}
+.box-language{}
+.h3-title-box-language{}
+.a-start-now{}
+
+/* Other laguages */
+#our-students{}
+.h3-students{}
+.h2-title-students{}
+.box-student{}
+.img-student{}
+.p-student{}
+.name-student{}
+.box-student{}
+.img-student{}
+.p-student{}
+.name-student{}
+
+/* Footer */
+.dev{}
+.dev-page{}
