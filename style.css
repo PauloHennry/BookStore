@@ -1,20 +1,94 @@
+/* Fonts google fontes */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
+
 /* Configurações de reset */
 *{
-    padding: 0;
-    border: 0;
-    box-sizing: 0;
+    padding: 0px;
+    border: 0px;
+    box-sizing: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Header*/
-#header-principal{}
-.navbar{}
-.logo{}
-.links{}
-.a-link{}
-.cont-header-principal{}
-.box-conteudo-header{}
-.h2-title{}
-.p-cont-title{}
+#header-principal{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   background: rgba(0, 0, 0, 0.5) url(/img/background-header.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
+   background-blend-mode: darken;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    height: 100px;
+    grid-column: 1 / -1;
+}
+.logo{
+    font-size: 42px;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#a-link ,.links {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+}
+#a-link::first-letter{
+    color: violet;
+    height: 0;
+    margin: 0;
+}
+#a-link{
+    display: grid;
+    padding: 16px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px;
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+}
+#a-link:hover{
+    color: violet;
+    transition: 1s;
+    
+}
+.cont-header-principal{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+.box-conteudo-header{
+    display: grid;
+    justify-content: center;
+    place-self: center;
+    align-items: center;
+}
+.h2-title{
+    font-size: 100px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+.p-cont-title{
+    color:white ;
+    font-size: 25px;
+    font-family: 'Poppins';
+    
+}
 
 /* About us */
 #about-us{}
